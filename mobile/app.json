@@ -1,0 +1,25 @@
+{
+  "expo": {
+    "name": "Gerador de Contratos",
+    "slug": "gerador-de-contratos-mobile",
+    "scheme": "geradorcontratos",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.geradordecontratos.mobile"
+    },
+    "android": {
+      "package": "com.geradordecontratos.mobile"
+    },
+    "plugins": [
+      "expo-secure-store",
+      "expo-status-bar",
+      "expo-sharing"
+    ]
+  }
+}
